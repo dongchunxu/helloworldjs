@@ -1,0 +1,20 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <script>
+            "use strict";
+            alert(this);
+
+
+            var oldArr = [1,2,null, undefined,'C',' '];
+            var r = oldArr.filter(function (s) {
+                return s && s.trim();
+            });
+
+            console.info(r);
+        </script>
+    </body>
+</html>
