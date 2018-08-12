@@ -47,7 +47,14 @@ map.forEach(function (value, key, map) {
 });
 
 
+/**
+ * Set
+ * */
+
 var set = new Set([1,2,3,4]);
 console.info(set.size);
+
+console.info("set.has:" + set.has(4));
+console.info("set.delete:" + set.delete(1));
 
 

@@ -1,0 +1,26 @@
+{
+  "name": "helloworldjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongchunxu/helloworldjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongchunxu/helloworldjs/issues"
+  },
+  "homepage": "https://github.com/dongchunxu/helloworldjs#readme",
+  "devDependencies": {
+    "babel": "^6.23.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
