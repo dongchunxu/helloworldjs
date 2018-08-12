@@ -41,6 +41,11 @@ console.info(map.size);
 
 
 
+//forEach遍历的是什么？
+map.forEach(function (value, key, map) {
+    console.info("forEach的方式遍历, value:" + value + ",key:" + key + ", map:" + map + "，this = " + this);
+});
+
 
 var set = new Set([1,2,3,4]);
 console.info(set.size);
