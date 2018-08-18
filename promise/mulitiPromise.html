@@ -5,11 +5,12 @@
 
     <body>
         <script>
+            //Promise会吃掉错误
 
             const p1 = new Promise((resolve, reject) => {
                 console.info("p1 beginning!");
-                setTimeout(() => reject(new Error("Error.")), 3000);
-                console.info("p1 end!");    //一般来说，对于promise来说，执行完reject，resolve之后，他的任务就算完成了
+                return setTimeout(() => reject(new Error("Error.")), 3000);
+                // console.info("p1 end!");    //一般来说，对于promise来说，执行完reject，resolve之后，他的任务就算完成了
 
             });
 
@@ -28,5 +29,7 @@
             });
 
         </script>
+
+
     </body>
 </html>
